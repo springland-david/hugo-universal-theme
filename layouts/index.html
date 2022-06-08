@@ -4,11 +4,14 @@
   <head>
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
+    {{ partial "gtm-header.html" . }}
   </head>
 
   <body>
 
     <div id="all">
+
+        {{ partial "gtm-body.html" . }}
 
         {{ partial "top.html" . }}
 
